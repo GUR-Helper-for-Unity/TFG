@@ -10,4 +10,9 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public void unload()
+    {
+        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
+
+    }
 }
