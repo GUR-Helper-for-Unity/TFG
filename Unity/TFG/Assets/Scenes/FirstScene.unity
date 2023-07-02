@@ -253,6 +253,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4290053783787857852, guid: d0f4357708d84be41be2fa997b28428d, type: 3}
+      propertyPath: trackerType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290053783787857852, guid: d0f4357708d84be41be2fa997b28428d, type: 3}
       propertyPath: triggerType
       value: 2
       objectReference: {fileID: 0}
@@ -262,15 +266,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4290053783787857852, guid: d0f4357708d84be41be2fa997b28428d, type: 3}
       propertyPath: serializers.Array.data[0]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4290053783787857852, guid: d0f4357708d84be41be2fa997b28428d, type: 3}
       propertyPath: serializers.Array.data[1]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4290053783787857852, guid: d0f4357708d84be41be2fa997b28428d, type: 3}
       propertyPath: persistences.Array.data[0]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4290053783787857852, guid: d0f4357708d84be41be2fa997b28428d, type: 3}
       propertyPath: persistences.Array.data[1]
