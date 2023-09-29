@@ -30,7 +30,7 @@
             "name": "xelatex, makeglossaries, bibtex, xelatex (2x)",
             "tools": [
                 "xelatex",
-                "makeglossaries",
+                //"makeglossaries",
                 "bibtex",
                 "xelatex",
                 "xelatex"

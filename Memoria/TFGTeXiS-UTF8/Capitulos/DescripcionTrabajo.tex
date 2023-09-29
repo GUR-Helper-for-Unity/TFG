@@ -1,31 +1,37 @@
 \chapter{Descripción del Trabajo}
 \label{cap:descripcionTrabajo}
-
-Aquí comienza la descripción del trabajo realizado. Se deben incluir tantos capítulos como sea necesario para describir de la manera más completa posible el trabajo que se ha llevado a cabo. Como muestra la figura \ref{fig:sampleImage}, está todo por hacer.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width = 0.5\textwidth]{Imagenes/Vectorial/Todo.pdf}
-	\caption{Ejemplo de imagen}
-	\label{fig:sampleImage}
-\end{figure}
-
-Si te sirve de utilidad,  puedes incluir tablas para mostrar resultados, tal como se ve en la tabla \ref{tab:sampleTable}.
+EJEMPLO CONCRETO: Prueba para investigar la dificultad de un videojuego en el que existe una mecánica de “muerte”.
 
 
-\begin{table}
-	\centering
-	\begin{tabular}{c|c|c}
-		\textbf{Col 1} & \textbf{Col 2} & \textbf{Col 3} \\
-		\hline\hline
-		3 & 3.01 & 3.50\\
-		6 & 2.12 & 4.40\\
-		1 & 3.79 & 5.00\\
-		2 & 4.88 & 5.30\\
-		4 & 3.50 & 2.90\\
-		5 & 7.40 & 4.70\\
-		\hline
-	\end{tabular}
-	\caption{Tabla de ejemplo}
-	\label{tab:sampleTable}
-\end{table}
+El desarrollador integrará en su escena principal de la prueba el prefab GURManager, con el cual decidirá qué tipo de persistencia y serialización utilizará (servidor, local, json, binary, etc). En caso de querer trackear otros eventos sencillos (posicion del jugador, inicio/final de niveles en caso de existir), se le explicará mediante la ventana de ayuda cómo aplicarlos. El GURManager detectará si existe en la escena el script (también proporcionado mediante el paquete) que guarde las trazas asociadas a la muerte en la prueba (evento concreto DeathEvent que debe ser trackeado). Si se cumplen estos requisitos, se podrá realizar una build. 
+
+
+El desarrollador distribuirá esta build a todos los probadores, y estas pruebas cuando se realicen distribuirán los datos recogidos para su posterior análisis.
+%Aquí comienza la descripción del trabajo realizado. Se deben incluir tantos capítulos como sea necesario para describir de la manera más completa posible el trabajo que se ha llevado a cabo. Como muestra la figura \ref{fig:sampleImage}, está todo por hacer.
+
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width = 0.5\textwidth]{Imagenes/Vectorial/Todo.pdf}
+%	\caption{Ejemplo de imagen}
+%	\label{fig:sampleImage}
+%\end{figure}
+
+%Si te sirve de utilidad,  puedes incluir tablas para mostrar resultados, tal como se ve en la tabla \ref{tab:sampleTable}.
+
+
+%\begin{table}
+%	\centering
+%	\begin{tabular}{c|c|c}
+%		\textbf{Col 1} & \textbf{Col 2} & \textbf{Col 3} \\
+%		\hline\hline
+%		3 & 3.01 & 3.50\\
+%		6 & 2.12 & 4.40\\
+%		1 & 3.79 & 5.00\\
+%		2 & 4.88 & 5.30\\
+%		4 & 3.50 & 2.90\\
+%		5 & 7.40 & 4.70\\
+%		\hline
+%	\end{tabular}
+%	\caption{Tabla de ejemplo}
+%	\label{tab:sampleTable}
+%\end{table}
