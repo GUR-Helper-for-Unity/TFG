@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.27)  29 SEP 2023 12:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.2)  4 OCT 2023 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/LAG_009/Documents/GitHub/TFG/Memoria/TFGTeXiS-UTF8/TFGTeXiS
-(c:/Users/LAG_009/Documents/GitHub/TFG/Memoria/TFGTeXiS-UTF8/TFGTeXiS.tex
+**c:/Users/eskar/Desktop/ESTUDIOS/23-24/TFG/Memoria/TFGTeXiS-UTF8/TFGTeXiS
+(c:/Users/eskar/Desktop/ESTUDIOS/23-24/TFG/Memoria/TFGTeXiS-UTF8/TFGTeXiS.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (c:/texlive/2023/texmf-dist/tex/latex/base/book.cls
@@ -58,7 +58,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count190
 ) (c:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/09/12 v3.94 The Babel package
+Package: babel 2023/09/29 v3.95 The Babel package
 \babel@savecnt=\count191
 \U@D=\dimen141
 \l@unhyphenated=\language89
@@ -294,7 +294,7 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 ) (c:/texlive/2023/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/07/31 v3.6n Customizing captions (AR)
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen155
@@ -771,8 +771,6 @@ Cap\'itulo 2.
 
 ]
 Cap\'itulo 3.
-Missing character: There is no “ ("201C) in font ec-lmr12!
-Missing character: There is no ” ("201D) in font ec-lmr12!
 ) [5]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
@@ -879,12 +877,12 @@ Package rerunfilecheck Info: File `TFGTeXiS.out' has not changed.
 (rerunfilecheck)             Checksum: B9C44DDAE1C9C41FF6FB7666647C09FF;1884.
  ) 
 Here is how much of TeX's memory you used:
- 17834 strings out of 475584
- 295469 string characters out of 5777101
+ 17834 strings out of 475585
+ 295481 string characters out of 5777122
  1916416 words of memory out of 5000000
- 38534 multiletter control sequences out of 15000+600000
+ 38533 multiletter control sequences out of 15000+600000
  610376 words of font info for 67 fonts, out of 8000000 for 9000
  1586 hyphenation exceptions out of 8191
- 101i,11n,112p,776b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,11n,112p,892b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on TFGTeXiS.pdf (40 pages).

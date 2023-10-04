@@ -1,12 +1,14 @@
 \chapter{Descripción del Trabajo}
 \label{cap:descripcionTrabajo}
-EJEMPLO CONCRETO: Prueba para investigar la dificultad de un videojuego en el que existe una mecánica de “muerte”.
+Para comenzar vamos a detallar un ejemplo concreto: utilizar la herramienta para investigar la dificultad de un videojuego donde existe la mecánica de muerte. Definimos esta mecánica como un evento del videojuego en el cual el jugador no consigue superar el obstáculo propuesto, reflejándose en una parada en la progresión (normalmente un reinicio), o, de manera más general, en una etiqueta que indicará que el jugador no ha superado el objetivo. 
 
+El desarrollador dispone de un prefab denominado GURManager que deberá integrar en la jerarquía de la escena deseada. Mediante este gestor se decidirá el tipo de persistencia y serialización que se utilizará en la prueba. Cuando el gestor existe en la escena, iniciará el sistema de telemetría y de cuestionarios.
 
-El desarrollador integrará en su escena principal de la prueba el prefab GURManager, con el cual decidirá qué tipo de persistencia y serialización utilizará (servidor, local, json, binary, etc). En caso de querer trackear otros eventos sencillos (posicion del jugador, inicio/final de niveles en caso de existir), se le explicará mediante la ventana de ayuda cómo aplicarlos. El GURManager detectará si existe en la escena el script (también proporcionado mediante el paquete) que guarde las trazas asociadas a la muerte en la prueba (evento concreto DeathEvent que debe ser trackeado). Si se cumplen estos requisitos, se podrá realizar una build. 
+En el caso de esta prueba concreta existe un evento particular y necesario para el funcionamiento correcto de la misma: detectar la muerte. El gestor se encargará de comprobar que se cumpla esta condición. Además existen otros eventos, unos más sencillos que lanza el gestor de manera automática (ej: inicio/fin de sesión) y otros independientes a la prueba y que debe integrar el desarrollador de manera opcional pero recomendada (ej: si la condición de derrota se relaciona con la posición de un objeto, se recomendará integrar un evento de localización de gameObjects). Todos los eventos que no son llamados directamente por el gestor serán introducidos mediante llamadas de código o mediante scripts predefinidos que se asocian a gameObjects en la escena.
 
+Para facilitar el uso, la herramienta cuenta con una ventana de ayuda que indicará al desarrollador como integrar los diferentes elementos proporcionados además del funcionamiento y el objetivo de los mismos.
 
-El desarrollador distribuirá esta build a todos los probadores, y estas pruebas cuando se realicen distribuirán los datos recogidos para su posterior análisis.
+Una vez preparada las escenas como se describe anteriormente, se podrá realizar una build que las incluya para su posterior distribución a todos los probadores. Cuando se ejecute esta build y se realicen las pruebas correctamente, se enviarán de manera automática al desarrollador los datos recogidos mediante esos dispositivos para su posterior análisis.
 %Aquí comienza la descripción del trabajo realizado. Se deben incluir tantos capítulos como sea necesario para describir de la manera más completa posible el trabajo que se ha llevado a cabo. Como muestra la figura \ref{fig:sampleImage}, está todo por hacer.
 
 %\begin{figure}[h]
