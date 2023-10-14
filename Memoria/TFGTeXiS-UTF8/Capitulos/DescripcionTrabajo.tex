@@ -1,15 +1,69 @@
 \chapter{Descripción del Trabajo}
 \label{cap:descripcionTrabajo}
-Para comenzar vamos a detallar un ejemplo concreto: utilizar la herramienta para investigar la dificultad de un videojuego donde existe la mecánica de muerte. Definimos esta mecánica como un evento del videojuego en el cual el jugador no consigue superar el obstáculo propuesto, reflejándose en una parada en la progresión (normalmente un reinicio), o, de manera más general, en una etiqueta que indicará que el jugador no ha superado el objetivo. 
+Con el objetivo de permitir a un desarrollador de videojuegos integrar una prueba de GUR en su proyecto, la herramienta pondrá a disposición diferentes pruebas predefinidas entre las que podrá escoger a conveniencia del proyecto:  ¿Qué tipo de videojuego se está desarrollando? ¿Qué aspecto se pretende evaluar en el mismo? 
 
-El desarrollador dispone de un prefab denominado GURManager que deberá integrar en la jerarquía de la escena deseada. Mediante este gestor se decidirá el tipo de persistencia y serialización que se utilizará en la prueba. Cuando el gestor existe en la escena, iniciará el sistema de telemetría y de cuestionarios.
 
-En el caso de esta prueba concreta existe un evento particular y necesario para el funcionamiento correcto de la misma: detectar la muerte. El gestor se encargará de comprobar que se cumpla esta condición. Además existen otros eventos, unos más sencillos que lanza el gestor de manera automática (ej: inicio/fin de sesión) y otros independientes a la prueba y que debe integrar el desarrollador de manera opcional pero recomendada (ej: si la condición de derrota se relaciona con la posición de un objeto, se recomendará integrar un evento de localización de gameObjects). Todos los eventos que no son llamados directamente por el gestor serán introducidos mediante llamadas de código o mediante scripts predefinidos que se asocian a gameObjects en la escena.
+En este apartado desarrollaremos cómo se utiliza la herramienta, qué aspectos se han tenido en cuenta a la hora de diseñar estas pruebas de usuario y qué resultados se pretenden conseguir. Para ello, utilizaremos un ejemplo concreto dentro del abanico de propuestas que disponemos en la herramienta: utilizar la herramienta para evaluar la dificultad de un videojuego o segmento del mismo donde existe una mecánica de penalización. El objetivo principal es averiguar cuál es el nivel de dificultad percibido por el usuario y cómo se ajusta al nivel de dificultad deseado por el desarrollador, partiendo de la certeza de que esta mecánica de penalización sirve como reflejo o consecuencia de los niveles de dificultad del videojuego, y por lo tanto, existe una relación directa.
 
-Para facilitar el uso, la herramienta cuenta con una ventana de ayuda que indicará al desarrollador como integrar los diferentes elementos proporcionados además del funcionamiento y el objetivo de los mismos.
 
-Una vez preparada las escenas como se describe anteriormente, se podrá realizar una build que las incluya para su posterior distribución a todos los probadores. Cuando se ejecute esta build y se realicen las pruebas correctamente, se enviarán de manera automática al desarrollador los datos recogidos mediante esos dispositivos para su posterior análisis.
-%Aquí comienza la descripción del trabajo realizado. Se deben incluir tantos capítulos como sea necesario para describir de la manera más completa posible el trabajo que se ha llevado a cabo. Como muestra la figura \ref{fig:sampleImage}, está todo por hacer.
+En esta prueba de usuario partimos de una premisa necesaria que debe existir en el videojuego a evaluar: contiene una mecánica que se interpreta como una penalización al usuario. Definimos esta penalización como un evento del videojuego en el cual el jugador no consigue superar el obstáculo propuesto, reflejándose en una parada de la progresión (normalmente un reinicio), o, de manera más general, en una etiqueta que indicará que el jugador no ha superado el objetivo. En los videojuegos, se suele ver este evento como el clásico “game over”, pero se puede extender a cualquier tipo de castigo hacia el jugador: golpes recibidos en un videojuego de acción, resolución errónea en un juego de rompecabezas, etc. Pretendemos que sea lo suficientemente ambiguo como para que se pueda aplicar en muchos videojuegos, pero al mismo tiempo, lo suficientemente concreto para poder realizar una prueba de usuario más pormenorizada. 
+
+
+El interés en esta prueba de usuario se debe a que la mecánica de penalización está ligada directamente con las curvas de interés en el diseño de un videojuego, siendo una variable delicada ya que la ausencia de veces en la que ocurre puede llevar a que el jugador sienta menos desafío y por ende, menos interés; o por el contrario la repetición excesiva de la misma puede llevar a frustraciones. Según cómo sea el videojuego que se está desarrollando, puede existir más o menos interés en que se sucedan cierta cantidad de castigos en una partida, y por ello esta prueba empieza a ganar interés desde un punto de vista generalizado, en el que ofrezcamos las herramientas para observar ese número de penalizaciones (además de otros posibles datos relacionados con ella) y sacar conclusiones a raíz de estos datos recogidos. 
+
+
+La relación que existe entre la dificultad percibida y las penalizaciones es la siguiente: muy fácil → pocas penalizaciones; muy difícil → muchas penalizaciones. Debemos entender que lo que estamos evaluando es la dificultad, y el número de penalizaciones es una métrica en la que nos podemos apoyar. Esto quiere decir que el problema de la poca o excesiva dificultad se ve reflejado en las penalizaciones, pero no es generado por las mismas. Las penalizaciones son una consecuencia del nivel de dificultad, no un causante.
+
+
+Cabe destacar que la dificultad que se evaluará será la percepción general de la dificultad del videojuego o segmento a probar, no la dificultad de realizar una mecánica concreta o del diseño de niveles. Realizar una prueba para evaluar la dificultad general sin concretar en las particularidades del videojuego a tratar puede parecer contraproducente, pero a la hora de generalizar una implementación de esta prueba de usuario (con el objetivo principal de que sirva para el mayor número de desarrollos posibles) se debe abarcar desde un punto de vista más amplio, que no lo limite a ciertos tipos de videojuegos. Por esta razón, la definición que ofrecemos de una penalización o castigo acaba siendo la más acertada para poder empezar a realizar esta prueba de usuario. A partir de la realización de esta prueba, se podrán obtener ciertos resultados con los que poder realizar pruebas sucesivas intentando atacar de manera más concreta estos aspectos que puedan haber causado problemas concretos en cuanto a la dificultad.
+
+
+En la prueba diseñada se proponen una serie de técnicas que combinarán métricas y cuestionarios que serán recogidos en diferentes momentos de la partida. Ambos apartados están diseñados para que en conjunto puedan ofrecer ciertas respuestas sobre las acciones del jugador que realiza la prueba. El hecho de que exista el cuestionario además de los datos objetivos y numéricos captados en el sistema de telemetría sobre las penalizaciones podrán hacer que el desarrollador entienda los diferentes perfiles de jugadores según cómo perciben la dificultad y cómo se han relacionado con la mecánica de muerte.
+
+
+Comenzando por el apartado del cuestionario, dadas las características de la prueba definida, éste aparecerá una sola vez y sería al final de la realización de la prueba. No necesitamos que el cuestionario se muestre durante la prueba ni que lo haga más de una vez, ya que consiste en un cuestionario acerca de la dificultad sobre todo el segmento a evaluar de manera general, no de secciones de la prueba en específico. Siguiendo diferentes recomendaciones en cuanto a cómo realizar las preguntas y los sesgos a evitar (libro GUR, 9.4), hemos realizado el siguiente cuestionario:%Aquí comienza la descripción del trabajo realizado. Se deben incluir tantos capítulos como sea necesario para describir de la manera más completa posible el trabajo que se ha llevado a cabo. Como muestra la figura \ref{fig:sampleImage}, está todo por hacer.
+
+
+IMAGEN DEL CUESTIONARIO
+
+
+En combinación al cuestionario, tendremos una serie de eventos que serán recogidos por el sistema de telemetría integrado en la herramienta. Los eventos serán los siguientes:
+
+- Evento de inicio y fin de sesión
+
+- Eventos de progresión: comienzo de partida, comienzo de nivel, pausa de una partida, reanudación de una partida, fin de nivel (SUCCESS, LOSE, MATCH, NONE), abandono de nivel.
+
+- Evento de penalización
+
+- Evento de posición de objetos
+
+
+Estos eventos serán recogidos con sus marcas de tiempo y ordenados según ese valor. Algunos de ellos serán opcionales o necesitarán de la implementación concreta por cada desarrollador, ya que dependerán de las características de cada videojuego. Esto se explicará detalladamente más adelante.
+
+
+Por último, una vez realizada esta prueba, se pretende mostrar un análisis de los resultados en los que se evaluarán las pruebas tanto individualmente como en su conjunto, con el objetivo de dar una respuesta a la pregunta inicial en este ejemplo. Los datos propuestos a mostrar en el análisis serían los siguientes:
+
+
+**DATOS PARA EL CONJUNTO DE PRUEBAS:**
+
+- Media de penalizaciones por partida
+
+- Media de tiempo por partida
+
+- Grafico de media de penalizaciones y de tiempo por cada una de las preguntas del cuestionario, además de con la experiencia.
+
+- Media de posición de objetos durante la sesión
+
+
+**DATOS PARA LAS PRUEBAS INDIVIDUALMENTE:**
+
+- Número de penalizaciones del jugador en la partida
+
+- Tiempo de partida
+
+- Respuesta de los datos de su cuestionario.
+
+- Posición de objeto durante la sesión.
 
 %\begin{figure}[h]
 %	\centering
