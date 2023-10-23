@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.2)  22 OCT 2023 12:11
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.2)  23 OCT 2023 12:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,8 +782,8 @@ Missing character: There is no → ("2192) in font ec-lmr12!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -793,7 +793,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
 [6]
-Overfull \hbox (40.98846pt too wide) in paragraph at lines 27--28
+Overfull \hbox (40.98846pt too wide) in paragraph at lines 19--20
 \T1/lmr/m/n/12 files-secure.s3.us-west-2.amazonaws.com/e73f2072-0f15-4bb3-a291-db8ac100dd4e/b8ce095a-
  []
 
@@ -811,8 +811,8 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -835,7 +835,90 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 [9]
 Missing character: There is no “ ("201C) in font ec-lmr12!
 Missing character: There is no ” ("201D) in font ec-lmr12!
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[10]
+Missing character: There is no “ ("201C) in font ec-lmr12!
+Missing character: There is no ” ("201D) in font ec-lmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[11]
+Overfull \hbox (0.95264pt too wide) in paragraph at lines 153--154
+[]\T1/lmr/m/n/12 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e73f2072-0f15-
+ []
+
+
+Overfull \hbox (0.95264pt too wide) in paragraph at lines 161--162
+[]\T1/lmr/m/n/12 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e73f2072-0f15-
+ []
+
+
+Overfull \hbox (0.95264pt too wide) in paragraph at lines 163--164
+[]\T1/lmr/m/n/12 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e73f2072-0f15-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[12]
+Missing character: There is no “ ("201C) in font ec-lmr12!
+Missing character: There is no ” ("201D) in font ec-lmr12!
+Missing character: There is no “ ("201C) in font ec-lmr12!
+Missing character: There is no ” ("201D) in font ec-lmr12!
+Missing character: There is no “ ("201C) in font ec-lmr12!
+Missing character: There is no ” ("201D) in font ec-lmr12!
+
+Overfull \hbox (0.95264pt too wide) in paragraph at lines 181--182
+[]\T1/lmr/m/n/12 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e73f2072-0f15-
+ []
+
+
+Overfull \hbox (128.97148pt too wide) in paragraph at lines 183--184
+\T1/lmr/m/n/12 des-de GUR-Ma-na-ger. Uti-li-zan-do la lí-nea de có-di-go Trac-ker.Instance.TrackSynchroEvent(Tracker.Instance.x()),
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
+
+[13])
 LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
 
@@ -846,12 +929,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.49998pt}.
 
-[10]
+[14]
 \openout2 = `Capitulos/ConclusionesTrabajoFuturo.aux'.
 
  (./Capitulos/ConclusionesTrabajoFuturo.tex
 Cap\'itulo 4.
-) [11
+) [15
 
 
 
@@ -859,25 +942,25 @@ Cap\'itulo 4.
 ]
 \openout2 = `Capitulos/Introduction.aux'.
 
- (./Capitulos/Introduction.tex [12
+ (./Capitulos/Introduction.tex [16
 
 
 
 
-]) [13]
+]) [17]
 \openout2 = `Capitulos/ConclusionsFutureWork.aux'.
 
- (./Capitulos/ConclusionsFutureWork.tex [14
+ (./Capitulos/ConclusionsFutureWork.tex [18
 
 
 
 
-]) [15]
+]) [19]
 LaTeX Info: Redefining \. on input line 153.
 LaTeX Info: Redefining \% on input line 153.
 \openout2 = `Capitulos/ContribucionesPersonales.aux'.
 
- (./Capitulos/ContribucionesPersonales.tex [16
+ (./Capitulos/ContribucionesPersonales.tex [20
 
 
 
@@ -886,10 +969,10 @@ LaTeX Info: Redefining \% on input line 153.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
  (c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [17]
+)) [21]
 \openout2 = `Cascaras/bibliografia.aux'.
 
- (./Cascaras/bibliografia.tex (./TFGTeXiS.bbl [18
+ (./Cascaras/bibliografia.tex (./TFGTeXiS.bbl [22
 
 
 
@@ -901,10 +984,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
-)) [19]
+)) [23]
 \openout2 = `Apendices/appendixA.aux'.
 
- (./Apendices/appendixA.tex [20
+ (./Apendices/appendixA.tex [24
 
 
 
@@ -915,10 +998,10 @@ Missing character: There is no é ("E9) in font phvr7t!
 Missing character: There is no é ("E9) in font phvr7t!
 Missing character: There is no é ("E9) in font phvr7t!
 Missing character: There is no é ("E9) in font phvr7t!
-) [21]
+) [25]
 \openout2 = `Apendices/appendixB.aux'.
 
- (./Apendices/appendixB.tex [22
+ (./Apendices/appendixB.tex [26
 
 
 
@@ -929,16 +1012,16 @@ Missing character: There is no é ("E9) in font phvr7t!
 Missing character: There is no é ("E9) in font phvr7t!
 Missing character: There is no é ("E9) in font phvr7t!
 Missing character: There is no é ("E9) in font phvr7t!
-) [23] [24
+) [27] [28
 
 
 
 ]
 \openout2 = `Cascaras/fin.aux'.
 
- (./Cascaras/fin.tex [25
+ (./Cascaras/fin.tex [29
 
-] [26]) (./TFGTeXiS.aux (./Cascaras/cover.aux)
+] [30]) (./TFGTeXiS.aux (./Cascaras/cover.aux)
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
  (./Cascaras/dedicatoria.aux) (./Cascaras/agradecimientos.aux) (./Cascaras/resumen.aux) (./Cascaras/abstract.aux) (./TeXiS/TeXiS_toc.aux)
@@ -956,12 +1039,12 @@ Package rerunfilecheck Info: File `TFGTeXiS.out' has not changed.
 (rerunfilecheck)             Checksum: B9C44DDAE1C9C41FF6FB7666647C09FF;1884.
  ) 
 Here is how much of TeX's memory you used:
- 17820 strings out of 475585
- 295215 string characters out of 5777122
+ 17824 strings out of 475585
+ 295275 string characters out of 5777122
  1920416 words of memory out of 5000000
- 38520 multiletter control sequences out of 15000+600000
+ 38524 multiletter control sequences out of 15000+600000
  606112 words of font info for 66 fonts, out of 8000000 for 9000
  1586 hyphenation exceptions out of 8191
- 101i,12n,112p,1260b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,112p,1537b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TFGTeXiS.pdf (44 pages).
+Output written on TFGTeXiS.pdf (48 pages).
