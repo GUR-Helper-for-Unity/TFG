@@ -3,6 +3,69 @@
 
 %En el estado de la cuestión es donde aparecen gran parte de las referencias bibliográficas del trabajo. Una de las formas más cómodas de gestionar la bibliografía en {\LaTeX} es utilizando \textbf{bibtex}. Las entradas bibliográficas deben estar en un fichero con extensión \textit{.bib} (con esta plantilla se proporciona el fichero biblio.bib, donde están las entradas referenciadas más abajo). Cada entrada bibliográfica tiene una clave que permite referenciarla desde cualquier parte del texto con los siguiente comandos:
 
+%GUR en la industria
+
+El GUR lleva siendo una disciplina desde esta última década, a pesar de haber estado presente durante la mayor parte de la historia de la industria. 
+
+Developers y publishers grandes como EA, Microsoft, Sony, Ubi y Warner llevan su propio GUR, pero también otras empresas pequeñas tienen su propio staff dedicado, siendo siempre el núcleo de responsabilidades y maneras de ejecución el mismo independientemente de la organización estructural.
+
+Las personas encargadas del GUR suelen estar relacionadas con la psicología, computer science o HCI (Human–computer interaction), ya que este tipo de formación puede proporcionar mejores conclusiones e hipótesis sobre la investigación y mejor diseño del estudio, recopilación y síntesis de datos. Estas personas se dividen en dos grupos, el grupo de Research(Investigación) y el grupo de Support(Soporte).
+
+El primer grupo, Research, abarca todo lo relacionado con llevar a cabo del estudio, desde diseñar la investigación hasta el análisis y elaboración de los informes correspondiente. Dentro de este grupo separamos entre Moderador y Analista, los cuales participan en las realización de las pruebas, recopilación de datos y análisis, e Investigador, responsable tanto del diseño de la prueba como del análisis e informes.
+
+En el segundo grupo de Soporte, encargado de la gestión de los recursos empleados en la prueba, encontramos Reclutador, cuyo trabajo es el de seleccionar candidatos para la realización de las pruebas, y Técnico de Laboratorio, encargado de gestionar el equipo, tanto hardware como software para que todo funcione correctamente durante el estudio.
+
+Para empresas pequeñas es habitual que varios de estos roles, si no todos, estén desempeñados por la misma persona. A medida que la empresa y el equipo crece es necesario dividir estas tareas en diferentes miembros.
+
+Los tres modelos organizativos principales en la industria serían el centralizado, descentralizado y el hibrido, siendo este último una tendencia reciente entre las compañías.
+
+En el modelo centralizado, un solo equipo lleva a cabo todas las actividades de GUR dentro de una misma empresa. Algunas de las ventajas que aparecen son la creación de un grupo de expertos sólido que comparte mejores prácticas y asegura la calidad de la investigación o la posibilidad de abarcar una amplia gama de proyectos. Sin embargo, también presentan desafíos, como la asignación de recursos entre proyectos y la posible distancia entre los investigadores y los equipos de desarrollo.
+
+En el descentralizado encontramos el enfoque opuesto, con multiples departamentos o personas independientes, integrados en los equipos de desarrollo específicos de cada proyecto. Las ventajas de este modelo serían una comunicación más directa y constante y conocimiento profundo del juego y su contexto. Los problemas que plantea este enfoque están relacionados con relacionados con la escalabilidad, la comparabilidad de resultados y el ritmo de mejora de procesos. Además este modelo requiere de un mayor número de investigadores, algo que puede ser limitado sobre todo para empresas de menor tamaño y la falta de comunicación entre los diferentes proyectos limita el aprendizaje y la mejora de practicas de los investigadores.
+
+El modelo hibrido es la tendencia actual en la industria, combinando un departamento centralizado de GUR con investigadores integrados en los equipos de desarrollo. Con esto se pretende obtener las ventajas de ambos modelos anteriores, obteniendo a la vez la comunicación directa y conocimiento profundo del juego al trabajar directamente con los investigadores y la posibilidad de mantener un conjunto definido de recursos y procedimientos compartidos en toda la empresa. Aun así existen dificultades tanto para mantener la relación entre los investigadores centralizados y los integrados como para que las estrategias específicas utilizadas en cada proyecto se mantengan alineados con los procesos que se llevan a cabo a nivel general.
+
+%Cómo se aplica el GUR
+
+En cuanto a la planificación a largo plazo, el GUR se utiliza durante todo un desarrollo y en las diferentes fases del mismo surgen preguntas diferentes prototípicas. Los investigadores adecuan estas preguntas a las necesidades específicas de cada proyecto además de utilizar las técnicas más convenientes.
+
+En lo referido al corto plazo, es recomendable hacer al menos un test cada dos semanas, con una media de ocho participantes si es en salas de think-aloud, o veinticuatro si es de colección de datos mediante encuestas. Resulta de vital importancia la duración y frecuencia de estas pruebas para poder mantener relevante la información obtenida de ellas, ya que si se dilataran mucho en el tiempo, estos hallazgos podrían quedar obsoletos. Es trabajo de los investigadores gestionar y ajustar las sesiones a los ciclos del desarrollo, evitando establecer preguntas amplias o redundantes que ralenticen el posterior análisis.
+
+%Fases
+Un test prototípico se divide en las siguientes fases:
+
+1. Preparación: recopilación de requisitos, definición de la pregunta de investigación, reclutamiento de participantes, creación del guion para la prueba. Todas estas tareas se pueden realizar en un plazo de cuatro días.
+
+2. Ejecución: los jugadores participan en el estudio; se lleva a cabo la sesión; se recopilan datos. Generalmente se realiza en uno o dos días.
+
+3. Análisis: se procesan los datos y se extraen conclusiones. Se realiza en un plazo de uno a cuatro días después de la prueba.
+
+4. Informe: los hallazgos se presentan en un entregable compartible. El formato exacto y la apariencia varían de una empresa a otra (se aborda en la Sección 2.3.3). Sin embargo, hay consenso en que debe realizarse en un plazo de uno a cinco días después de la prueba.
+
+%Formas de reporte
+Las formas más habituales de reportes de datos son:
+
+El reporte escrito es el más común, ya sea en forma de documento o diapositivas. Cómo ejemplo tenemos EA, donde encontramos dos momentos donde se envían estos documentos. El primer reporte se da el día posterior a la prueba, denominado “top liner” y contiene información general, de alto nivel, para dar al equipo de desarrollo información de manera rápida sobre donde están los problemas principales. El segundo es el informe final, entregado entre 3 y 5 días después de la prueba, con un análisis más completo.
+
+La presentación o debrief, es una discusión verbal que se realiza cuando un informe escrito está completo.
+
+El workshop fue desarrollado por Sony CEE y tiene el objetivo de dar resultados rápidamente mientras se mantiene la fiabilidad y calidad en las respuestas dadas. Se realiza un análisis y reuniones con el equipo de desarrollo dos días después del test para discutir potenciales soluciones a los problemas que se ofrezcan. Tras esta reunion, se hace un análisis completo sobre lo que se ha discutido en un reporte completo.
+
+Por último el registro de problemas o ticketing issues es un sistema por el cual se utilizan software de planificación de proyectos y metodologías agiles como JIRA o Hansoft para hacer un seguimiento de los hallazgos de las pruebas. Aunque sea menos visible, es más accesible a todo el equipo de desarrollo.
+
+
+%tipos de preguntas%
+
+%Ejemplos de metodologías en estudios:
+
+A continuación veremos algunos ejemplos reales de diferentes modelos de GUR en empresas concretas.
+
+El equipo de Microsoft dedica al GUR, Studios User Research, utiliza un equipo centralizado. Tiene su sede con su equipo principal en Washington y diferentes investigadores en remoto en otras localizaciones. Sus instalaciones cuentan con laboratorios con diferentes salas en las que se pueden hacer distintos tipos de sesiones de estudio, como para salas para sesiones de multi-estaciones de playtest individuales.
+
+Un ejemplo de equipo descentralizado es el de Ubisoft, dividido en 13 departamentos localizados en diferentes lugares del planeta (Toronto, Montreal, Montpellier, Malmo, Paris, etc). Cada uno es autónomo aunque han colaborado para mantener una consistencia y ayudarse cuando sea necesario.
+
+Por último encontramos equipos híbridos en empresas como Riot y AE. En el caso de Riot tiene investigadores centrales e integrados; el central se encarga de iniciativas como los estudios que varían según regiones, análisis competitivo y "research and development". Los integrados trabajan directamente con el equipo de desarrollo, asegurándose de que haya comunicación en todos los niveles, como entre equipos que trabajan en características especificas o secciones generales, como el gameplay. En EA, las practicas y guidelines son compartidas desde un nivel central, y los investigadores están integrados en equipos específicos de desarrollo, que normalmente están distribuidos a lo largo del planeta.
+
 %\begin{itemize}
 %\item Referencia bibliografica con cite: \cite{ldesc2e}
 %\item Referencia bibliográfica con citep: \citep{notsoshort}
