@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -37,8 +38,10 @@ public class UIManager : MonoBehaviour
 
     public void DecreaseLife()
     {
-        if (lifes == 0)
+        if(lifes == 0)
+        {
             return;
+        }
         lifes--;
         text.text = "Vidas restantes: " + lifes;
     }

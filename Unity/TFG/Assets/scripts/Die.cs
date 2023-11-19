@@ -10,6 +10,7 @@ public class Die : MonoBehaviour
         if ( !died && collision.gameObject.CompareTag("dieZone"))
         {
             died = true;
+            GetComponent<GURHelper.CallEvent>().TrackEvent();
             Destroy(gameObject);
             UIManager.Instance.DecreaseLife();
         }
