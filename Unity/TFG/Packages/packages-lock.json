@@ -4,7 +4,9 @@
       "version": "file:com.ucm.gurhelper",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+      }
     },
     "com.unity.collab-proxy": {
       "version": "2.0.0",
