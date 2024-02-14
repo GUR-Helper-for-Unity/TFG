@@ -1,0 +1,20 @@
+{"nombre":"SESSION_START","tiempo":3.4473555088043215,"sesion":8262637461435306000}
+{"nombre":"TEST_START","tiempo":3.5631730556488039,"sesion":8262637461435306000}
+{"questionID":"","questionText":"Selecciona el rango de edad en el que te encuentras: ","answer":"-1:"}
+{"questionID":"","questionText":"Indica, siguiendo la siguiente escala, cual es tu experiencia jugando a videojuegos en general → 0(nunca he jugado) - 5 (soy jugador habitual)","answer":"0"}
+{"questionID":"","questionText":"Indica, siguiendo la siguiente escala, cómo te has sentido jugando este segmento. → 0 (para nada), 1 (poco) , 2(moderadamente), 3 (bastante), 4(extremadamente)","answer":""}
+{"questionID":"","questionText":"Comenta brevemente cómo has percibido la dificultad en este videojuego","answer":""}
+{"nombre":"TEST_END","tiempo":22.320030212402345,"sesion":8262637461435306000}
+{"nombre":"DEATH","tiempo":23.6823673248291,"sesion":8262637461435306000,"x":19.910396575927736,"y":-0.2617988586425781,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":23.950199127197267,"sesion":8262637461435306000,"x":-18.360803604125978,"y":-0.2543296813964844,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":23.955167770385743,"sesion":8262637461435306000,"x":3.088026762008667,"y":-0.23782920837402345,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":24.286972045898439,"sesion":8262637461435306000,"x":19.91050148010254,"y":-0.2578125,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":24.292245864868165,"sesion":8262637461435306000,"x":-18.370933532714845,"y":-0.28061866760253909,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":24.296096801757814,"sesion":8262637461435306000,"x":19.9106502532959,"y":-0.2613697052001953,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":24.737220764160158,"sesion":8262637461435306000,"x":19.92341423034668,"y":-0.26923370361328127,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":25.353580474853517,"sesion":8262637461435306000,"x":-18.367027282714845,"y":-0.26706886291503909,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":25.739238739013673,"sesion":8262637461435306000,"x":-18.374719619750978,"y":-0.2614097595214844,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":26.747196197509767,"sesion":8262637461435306000,"x":-18.068817138671876,"y":-0.2701072692871094,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":29.734657287597658,"sesion":8262637461435306000,"x":19.539846420288087,"y":-0.25455379486083987,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":30.41496467590332,"sesion":8262637461435306000,"x":0.050768256187438968,"y":-0.2663917541503906,"z":-0.07912386953830719}
+{"nombre":"DEATH","tiempo":31.408878326416017,"sesion":8262637461435306000,"x":0.050768256187438968,"y":-0.2663917541503906,"z":-0.07912386953830719}

@@ -22,13 +22,14 @@ namespace GURHelper
         string[] questions;
         [SerializeField]
         GameObject simpleSliderPrefab;
-        private static List<SimpleSliderQuestion> sliders = new List<SimpleSliderQuestion>();
+        private List<SimpleSliderQuestion> sliders = new List<SimpleSliderQuestion>();
         public override void Interpret()
         {
             _respuesta = "";
             for (int i = 0; i < sliders.Count; i++)
             {
-                _respuesta += questions[i] + sliders[i].respuesta;
+                sliders[i].Interpret();
+                _respuesta += questions[i] + " ("+ sliders[i].respuesta + ") ";
             }
         }
 
