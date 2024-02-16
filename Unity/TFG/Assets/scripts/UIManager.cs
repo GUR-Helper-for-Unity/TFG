@@ -15,9 +15,6 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI text;
 
-    [SerializeField]
-    int lifes = 10;
-
     private void Awake()
     {
         if (instance == null)
@@ -31,21 +28,10 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void setLifes(int lifes)
     {
         text.text = "Vidas restantes: " + lifes;
     }
-
-    public void DecreaseLife()
-    {
-        if(lifes == 0)
-        {
-            return;
-        }
-        lifes--;
-        text.text = "Vidas restantes: " + lifes;
-    }
-
 
 
 }
