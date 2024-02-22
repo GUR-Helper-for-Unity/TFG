@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
         if (playerLife == 0)
         {
             Debug.Log("sacabo");
+            GURManager.Instance.ShowTest();
         }
         UIManager.Instance.setLifes(playerLife);
 
